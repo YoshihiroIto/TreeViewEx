@@ -3,4 +3,4 @@ TreeViewEx
 
 Fork of https://treeviewex.codeplex.com/
 
-Licence : https://treeviewex.codeplex.com/license
+License : https://treeviewex.codeplex.com/license
