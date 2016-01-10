@@ -223,6 +223,7 @@
             if (item == null) return;
             if (e.ChangedButton != MouseButton.Left && !(e.ChangedButton == MouseButton.Right && item.ContextMenu != null)) return;            
             if (item.IsEditing) return;
+            if (e.ChangedButton == MouseButton.Right && item.ContextMenu != null) return;
 
             SelectSingleItem(item);
 
