@@ -10,7 +10,7 @@ namespace System.Windows.Controls.DragNDrop
     {
         private bool canDrop;
         private bool canInsert;
-        private int insertIndex;
+        //private int insertIndex;
         private List<object> draggedItems;
 
         public DragContent()
